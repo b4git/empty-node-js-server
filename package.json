@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "try": "python -c \"print ('works') \" ",
-    "start": "yarn run try && nodemon src/index.js"
+    "start": "npm run try && nodemon src/index.js"
   },
   "dependencies": {},
   "devDependencies": {
